@@ -9872,18 +9872,33 @@ li {
 }
 
 /* Testimonials */
-
-.testimonial_subtitle{
-    color: #0aaa7a;
-    font-size: 12px;
-}
-.testimonial_btn{
-    background-color: #373d4b !important;
-    color: #fff !important;
- }
-.seprator {
-    height: 2px;
-    width: 56px;
-    background-color: #0aaa7a;
-    margin: 7px 0 10px 0;
-}
+.card {
+          margin: 0 auto;
+          .carousel-item {
+            height: 200px;
+          }
+          .carousel-caption {
+            padding: 0;
+            right: 0;
+            left: 0;
+            color: $font-primary;
+            h3 {
+              color: $font-primary;
+            }
+            p {
+              line-height: 30px;
+            }
+            .col-sm-3 {
+              display: flex;
+              align-items: center;
+            }
+            .col-sm-9 {
+              text-align: left;
+            }
+          }
+          .carousel-control-prev, .carousel-control-next {
+            hover:#ef4c23;
+            color: $font-primary!important;
+            opacity: 1!important;
+          }
+        }
