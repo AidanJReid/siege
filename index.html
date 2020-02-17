@@ -354,55 +354,45 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Carousel Slide -->
-                    <div class="carousel slide" id="quote" data-ride="carousel">
-                <!-- Indicators -->
-                <ul class="carousel-indicators">
-                    <li data-target="#quote" data-slide-to="0" class="active"></li>
-                    <li data-target="#quote" data-slide-to="1"></li>
-                    <li data-target="#quote" data-slide-to="2"></li>
-                </ul>
-                <!-- The slideshow -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6 offset-md-3 text-center">
-                                <blockquote class="blockquote">
-                                <p class="mb-2"><em>"Mapotic"</em></p>
-                                <footer class="blockquote-footer">Ivos Quote - TBC</footer>
-                                </blockquote>
+                    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="img-box">
+                                <img src="img/portfolio/ivos.jpg">
                             </div>
+                            <p class="testimonial">TBC</p>
+                            <p class="overview">Ivos Gajdorus - Mapotic.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-box">
+                                <img src="img/portfolio/lou.jpg">
+                            </div>
+                            <p class="testimonial">TBC</p>
+                            <p class="overview">Louise Corr - Clinivet</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-box">
+                                <img src="img/portfolio/dave.jpg">
+                            </div>
+                            <p class="testimonial">TBC</p>
+                            <p class="overview">Dave Clark - Oracle</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6 offset-md-3 text-center">
-                                <blockquote class="blockquote">
-                                <p class="mb-2"><em>"Clinivet"</em></p>
-                                <footer class="blockquote-footer">Louise Quote - Pending</footer>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6 offset-md-3 text-center">
-                                <blockquote class="blockquote">
-                                <p class="mb-2"><em>"Riskwave"</em></p>
-                                <footer class="blockquote-footer">Zamboni Quote - Pending</footer>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <a class="carousel-control-prev" href="#quote" data-slide="prev">
+                    <!-- Carousel controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </a>
-                    <a class="carousel-control-next" href="#quote" data-slide="next">
+                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </a>
                 </div>
-            </div>
-        </div>
     </section>
 	<!-- Contact Section -->
 	<section class="page-section bg-light" id="contact">
