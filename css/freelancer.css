@@ -9918,3 +9918,11 @@ li {
     overflow: hidden;
     min-height: 290px;
 }
+
+#sm {
+    background: lightskyblue;
+}
+
+#testim {
+    background: white;
+}
