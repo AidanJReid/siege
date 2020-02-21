@@ -9754,12 +9754,26 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: rgba(26, 188, 156, 0.9);
 }
 
+.portfolio .portfolio-item .article-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(26, 188, 156, 0.9);
+}
+
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
 
+
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
+}
+
+.article-item-caption-content {
+    font-size: 1.0 rem;
 }
 
 .portfolio-modal .portfolio-modal-title {
