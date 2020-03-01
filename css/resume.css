@@ -2,10 +2,18 @@ p {
     font-size: 12px;
 }
 
+.fa .fas {
+    color: slategray;
+}
+
 .container {
-    background-color: white;
+    background-color: #F5F5F5;
     padding: 10px 5px;
     margin-bottom: 20px;
+}
+
+.container .container-fluid {
+    box-shadow: black;
 }
 
 #mainres {
