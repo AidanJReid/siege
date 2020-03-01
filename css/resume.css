@@ -2,7 +2,7 @@ p {
     font-size: 12px;
 }
 
-.fa .fas .fab .far {
+.fa, .fas, .fab, .far {
     color: slategray !important;
 }
 
