@@ -21,7 +21,7 @@ p {
 }
 
 .name {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.333;
     font-weight: 400;
     color: black;
@@ -32,4 +32,8 @@ p {
     line-height: 1.333;
     font-weight: 400;
     color: black;
+}
+
+.dates {
+    color: gray;
 }
