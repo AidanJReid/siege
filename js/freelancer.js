@@ -61,3 +61,7 @@
   });
 
 })(jQuery); // End of use strict
+
+$(function () { // Popover on code.html
+  $('[data-toggle="popover"]').popover()
+})
