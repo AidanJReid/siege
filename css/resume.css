@@ -1,9 +1,11 @@
 p {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .container {
     background-color: white;
+    padding: 10px 5px;
+    margin-bottom: 20px;
 }
 
 #mainres {
@@ -11,14 +13,14 @@ p {
 }
 
 .name {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.333;
     font-weight: 400;
     color: black;
 }
 
 .title {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.333;
     font-weight: 400;
     color: black;
