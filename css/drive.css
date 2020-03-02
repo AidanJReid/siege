@@ -1,6 +1,4 @@
 body {
-    margin-top:0px;
-    padding:0px;
     background:slategray;
 }
 
@@ -15,7 +13,7 @@ body {
     background-position: 0 0;
     animation: animate 40s linear;
     border: 1px solid gray;
-    height: 250px;
+    height: 300px;
     animation-timing-function: ease-in-out;
 }
 
