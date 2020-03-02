@@ -11,7 +11,7 @@ body {
     background: url("../img/road2.png");
     background-size: cover;
     background-position: 0 0;
-    animation: animate 40s linear;
+    animation: animate 50s linear;
     border: 1px solid gray;
     height: 300px;
     animation-timing-function: ease-in-out;
