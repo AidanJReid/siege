@@ -6,6 +6,10 @@ body {
     margin:50px 0px;
 }
 
+#taxman {
+    padding-bottom: 30px;
+}
+
 .road {
     position: relative;
     background: url("../img/road2.png");
