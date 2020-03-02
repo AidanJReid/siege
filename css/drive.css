@@ -1,0 +1,37 @@
+body {
+    margin-top:0px;
+    padding:0px;
+    background:slategray;
+}
+
+.container {
+    margin:50px 0px;
+}
+
+.road {
+    position: relative;
+    background: url("../img/road2.png");
+    background-size: cover;
+    background-position: 0 0;
+    animation: animate 40s linear;
+    border: 1px solid gray;
+    height: 250px;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100%;
+    }
+}
+
+.car {
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    max-width: 50%;
+    max-height: 40%;
+}
