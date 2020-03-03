@@ -1,3 +1,7 @@
+.container-fluid {
+    margin: 60px 0;
+}
+
 #torch {
     position: relative;
     background-image: url("../img/clutter.jpg");
