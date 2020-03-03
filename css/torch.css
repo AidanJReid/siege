@@ -4,11 +4,16 @@ body {
     background-color: black;
 }
 
+h3 {
+    color:white;
+    margin-bottom: 50px;
+}
+
 #torch {
     position: relative;
-    background-image: url("../img/clutter.jpg");
+    background-image: url("../img/messy.png");
     background-size: contain;
-    height:100vh;
+    height:90vh;
     width:100%;
     background-repeat: no-repeat;
     background-position: center;
