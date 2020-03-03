@@ -1,9 +1,12 @@
+body {
+    background-color: white;
+}
+
 #room {
     max-width: 100%;
     height: auto;
 }
 
 .container {
-    margin: 50px 0;
-    background-color: darkblue;
+    margin: 20px auto;
 }
