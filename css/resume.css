@@ -2,16 +2,14 @@ p {
     font-size: 12px;
 }
 
-#career {
-    padding: 0rem 10rem;
-}
 
 .fa, .fas, .fab, .far {
     color: whitesmoke !important;
 }
 
-.navtext {
+.nav-link {
     font-size: 10px;
+    color: white;
 }
 
 #tiny {
