@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #torch {
     position: relative;
     background-image: url("../img/clutter.jpg");

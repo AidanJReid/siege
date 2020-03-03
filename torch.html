@@ -17,7 +17,7 @@
 
 </head>
 <body>
-<div class="col-xs-12 col-lg-10 offset-lg-1" id="torch">
+<div id="torch">
     <div class="room"></div>
 </div>
 
@@ -41,7 +41,7 @@
     $(document).mousemove(function(e){
         var X = e.pageX;
         var Y = e.pageY;
-        $('.room').css('background','radial-gradient(circle at '+X+'px '+Y+'px, transparent, #000 60px)')
+        $('.room').css('background','radial-gradient(circle at '+X+'px '+Y+'px, transparent, #000 10%)')
         })
     </script>
 </body>
