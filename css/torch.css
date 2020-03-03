@@ -1,4 +1,4 @@
-#wall {
+.container {
     background: url("../img/clutter.jpg");
     background-size: cover;
     max-width: 100%;
