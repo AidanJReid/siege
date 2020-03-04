@@ -1,0 +1,29 @@
+body {
+    max-height: 100vh;
+}
+
+/* .container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+} */
+
+
+/* .toilet {
+    position: relative;
+    background: url("../img/t1.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    line-height: 1.42857;
+} */
