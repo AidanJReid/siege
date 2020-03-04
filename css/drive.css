@@ -1,5 +1,5 @@
 body {
-    background:slategray;
+    background:radial-gradient(red,blue);
 }
 
 .container-fluid {
