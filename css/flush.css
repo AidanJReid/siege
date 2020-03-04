@@ -16,22 +16,22 @@ body {
     width: 300px;
 }
 
-#crap {
-    max-height: 60px;
-    max-width: 60px;
+.transition {
+    transition: width 2s, height 2s, transform 2s;
+    height: 60px;
+    width: 60px;
     position: absolute;
     bottom: 100px;
     left: 125px;
 }
 
-.transition {
-    transition: width 2s, height 2s, transform 2s;
-}
-
 .transition-active {
-  height: 20px;
-  width: 20px;
-  transform: rotate(180deg);
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  transform: rotate(720deg);
+  bottom: 100px;
+  left: 125px;
 }
 
 @keyframes shadow-pulse
