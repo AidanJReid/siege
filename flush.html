@@ -29,7 +29,7 @@
     <div class="row">
         <div class="col align-self-center">
             <img src="img/t1.jpg" id="shit">
-            <img src="img/crap.png" id="crap">
+            <img src="img/crap.png" id="crap" class="transition">
             <button type="button" class="btn btn-danger btn-circle" id="pushit"></button>
         </div>
     </div>
@@ -52,9 +52,19 @@
 
 	<!-- Custom scripts for this template -->
 	<script>
-    document.getElementById("myBtn").addEventListener("click", function(){
-    document.getElementById("demo").innerHTML = "Hello World";
-});
+//     document.getElementById("pushit").addEventListener("click", function(){
+//     document.getElementById("crap").style.transform = rotate(180deg);
+// });
+    // $( "#pushit" ).click(function() {
+    //     if (  $(crap).css( "transform") == 'none' ){
+    //         $(crap).css("transform","rotate(180deg)", "transition","transform 2s");
+    //     } else {
+    //         $(crap).css("transform","" );
+    //     }
+    // });
+    $("#pushit").click(function() {
+    $('.transition').toggleClass('transition-active');
+    });
     </script>
 </body>
 </html>
