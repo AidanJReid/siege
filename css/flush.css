@@ -26,12 +26,8 @@ body {
 }
 
 .transition-active {
-  height: 0px;
-  width: 0px;
   position: absolute;
-  transform: rotate(720deg);
-  bottom: 100px;
-  left: 125px;
+  transform: rotate(720deg) scale(0.01, 0.01);
 }
 
 @keyframes shadow-pulse
