@@ -18,7 +18,7 @@
 	<!-- Theme CSS -->
     <link href="css/freelancer.min.css" rel="stylesheet">
 
-<   <!-- Custom CSS -->
+    <!-- Custom CSS -->
     <link href="css/stuff.css" rel="stylesheet">
 
 </head>
@@ -31,14 +31,14 @@
         <div class="col align-self-center">
             <img src="img/lift.png" id="lift">
             <img src="img/liftdoor.png" id="doors" class="transition">
-            <button type="button" class="btn btn-danger btn-circle" id="pushit"></button>
+            <button type="button" class="btn btn-info btn-circle" id="pushit"></button>
         </div>
     </div>
 </div>
 <br>
 
 
-    <section class="copyright py-4 text-center text-white fixed-bottom">
+    <section class="copyright py-4 text-center text-white">
         <a href="code.html">The Daily Rot</a> | <a href="index.html">Portfolio Site</a>
 	</section>
 
@@ -54,6 +54,10 @@
 	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
 	<!-- Custom scripts for this template -->
-	<script></script>
+	<script>
+    $("#pushit").click(function() {
+    $('.transition').toggleClass('transition-active');
+    });
+    </script>
 </body>
 </html>
