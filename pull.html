@@ -32,8 +32,6 @@
             <div class="droptarget" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)" ondrop="drop(event)" ondragover="allowDrop(event)">
                 <img src="img/ruck.png" class="img-fluid" style="height: 35px; width: 35px;">
             </div>
-            <br>
-
             <p id="demo"></p>
         </div>
     </div>
@@ -62,14 +60,14 @@
 
         function dragEnter(event) {
         if ( event.target.className == "droptarget" ) {
-            document.getElementById("demo").innerHTML = "Entered the bag";
-            event.target.style.border = "3px dotted red";
+            document.getElementById("demo").innerHTML = "Plucked!";
+            event.target.style.border = "1px dotted red";
         }
         }
 
         function dragLeave(event) {
         if ( event.target.className == "droptarget" ) {
-            document.getElementById("demo").innerHTML = "Left the bag";
+            document.getElementById("demo").innerHTML = "In the bag!";
             event.target.style.border = "";
         }
         }

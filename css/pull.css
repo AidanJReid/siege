@@ -11,13 +11,17 @@
 
 .droptarget {
   float: left; 
-  margin-right: 43px;
-  margin-top: 91px;
-  padding: 10px;
+  margin-right: 28px;
+  margin-top: 100px;
+  width:50px;
+  height:30px;
+}
+
+p {
+    color:white;
+    font-weight: bolder;
 }
 
 #demo {
-    color: white;
-    font-weight: bolder;
-    padding-top: 50px;
+    margin-bottom: -50px;
 }
