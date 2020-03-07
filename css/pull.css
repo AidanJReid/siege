@@ -1,7 +1,12 @@
+body {
+    background-color: black;
+}
+
 .container-fluid {
     height: 500px;
     width: 700px;
     background-image: url("../img/bedtime.png");
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
