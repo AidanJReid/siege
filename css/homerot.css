@@ -2,7 +2,10 @@ body {
     background-color: snow;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    align-content: center;
+    justify-content: center;
     text-align: center;
+    align-self: center;
 }
 
 ul {
@@ -74,6 +77,10 @@ div.desc {
 
 .content {
     padding: 0px 15px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
 }
 
 div:after {
