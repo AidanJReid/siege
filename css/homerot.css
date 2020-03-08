@@ -27,7 +27,8 @@ li a {
     text-transform: uppercase;
 }
 
-li a:hover {background-color: red;
+li a:hover {
+    background-color: red;
 }
 
 .active {
