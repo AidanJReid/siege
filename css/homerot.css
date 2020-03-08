@@ -1,6 +1,7 @@
 body {
     background-color: snow;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -12,6 +13,17 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: black;
+}
+
+hr {
+    width: 25%;
+    color: aqua;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: rgb(19, 164, 221);
 }
 
 li {
@@ -38,7 +50,7 @@ li a:hover {
 div.gallery {
   margin: 5px;
   border: 1px solid black;
-  float: left;
+  float:left;
   width: 140px;
 }
 
@@ -56,8 +68,22 @@ div.desc {
   text-align: center;
   background-color: green;
   color: white;
+  height: 30px;
 }
 
 .content {
     padding: 0px 15px;
+}
+
+div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
