@@ -79,6 +79,19 @@
       background-repeat: no-repeat;
       width: 100%;
     }
+
+.screensaver {
+        position: relative;
+        background: url("img/screensaver.png");
+        background-size: cover;
+        background-position: 0 0;
+        animation: animate 25s linear;
+        border: 1px solid gray;
+        height: 80px;
+        width: 125px;
+        top: 200px;
+        animation-timing-function: linear;
+
     }
 
     .clock-face {
@@ -100,11 +113,37 @@
       transition: all 0.05s;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     }
+
+    .screensaver {
+        position: relative;
+        background: url("img/screensaver.png");
+        background-size: cover;
+        background-position: 0 0;
+        animation: animate 50s linear;
+        border: 1px solid gray;
+        height: 80px;
+        width: 125px;
+        top: 250px;
+        animation-timing-function: ease-in-out;
+}
+    @keyframes animate {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100%;
+    }
+}
+    }
+
 </style>
 </head>
 <body>
 <div class="container text-center">
+    <div class="screensaver">
+    </div>
 <img src= "img/office.png">
+</div>
 
 <!-- Navigation -->
 <div class="clock">
