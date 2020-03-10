@@ -25,9 +25,6 @@
     }
 
     body {
-        background-image: url("img/office.png");
-      background-size: contain;
-      background-repeat: no-repeat;
       margin: 0;
       font-size: 1rem;
       display: flex;
@@ -35,6 +32,13 @@
       max-width: 100%;
     }
 
+
+    img {
+        background-size: contain;
+      background-repeat: no-repeat;
+      height: 400px;
+      width: auto;
+    }
     .clock {
       width: 8rem;
       height: 8rem;
@@ -93,6 +97,8 @@
 </style>
 </head>
 <body>
+<div class="container" style="align-text: center;">
+<img src= "img/office.png";>
 
 <!-- Navigation -->
 <div class="clock">
@@ -101,6 +107,7 @@
         <div class="hand min-hand"></div>
         <div class="hand second-hand"></div>
     </div>
+</div>
 </div>
 
     <!-- Custom Source -->
