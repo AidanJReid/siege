@@ -77,28 +77,6 @@
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     }
 
-    .screensaver {
-        position: relative;
-        background: url("img/screensaver.png");
-        background-size: cover;
-        background-position: 0 0;
-        animation: animate 50s linear;
-        border: 1px solid gray;
-        height: 80px;
-        width: 125px;
-        top: 250px;
-        animation-timing-function: ease-in-out;
-    }
-
-    @keyframes animate {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: 100%;
-    }
-    }
-
 
     @media only screen and (max-width: 1440px) {
     .screensaver {
@@ -222,7 +200,7 @@
       width: 100%;
     }
 
-    /* .screensaver {
+    .screensaver {
         position: relative;
         background: url("img/screensaver.png");
         background-size: cover;
@@ -235,7 +213,7 @@
         left: 46px;
         top: 200px;
         animation-timing-function: linear;
-    } */
+    }
 
     .clock-face {
       position: relative;
@@ -258,27 +236,6 @@
     }
     }
 
-    .screensaver {
-        position: absolute;
-        background: url("img/screensaver.png");
-        background-size: cover;
-        background-position: 0 0;
-        animation: animate 50s linear;
-        border: 1px solid gray;
-        height: 80px;
-        width: 125px;
-        top: 250px;
-        animation-timing-function: ease-in-out;
-}
-    @keyframes animate {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: 100%;
-    }
-}
-    }
 
     </style>
     </head>
