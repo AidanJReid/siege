@@ -77,10 +77,34 @@
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     }
 
+    @media only screen and (max-width: 1440px) {
+    .screensaver {
+        position: absolute;
+        background: url("img/screensaver.png");
+        background-size: cover;
+        background-position: 0 0;
+        animation: animate 20s linear;
+        border: 1px solid gray;
+        height: 200px;
+        width: 330px;
+        left: 200px;
+        top: 285px;
+        animation-timing-function: linear;
+    }
+    @keyframes animate {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100%;
+    }
+    }
+    }
+
 
     @media only screen and (max-width: 1024px) {
     .screensaver {
-        position: absolute;
+        position: relative;
         background: url("img/screensaver.png");
         background-size: cover;
         background-position: 0 0;
