@@ -39,6 +39,7 @@
       height: 600px;
       width: 100%;
     }
+
     .clock {
       width: 8rem;
       height: 8rem;
@@ -55,6 +56,49 @@
         inset 0 0 10px black,
         0 0 10px rgba(0,0,0,0.2);
     }
+
+    .clock-face {
+      position: relative;
+      width: 100%;
+      right: 10px;
+      height: 100%;
+      transform: translateY(-3px); /* account for the height of the clock hands */
+    }
+
+    .hand {
+      width: 75%;
+      height: 3px;
+      background: black;
+      position: absolute;
+      top: 50%;
+      transform-origin: 100%;
+      transform: rotate(90deg);
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    }
+
+    .screensaver {
+        position: relative;
+        background: url("img/screensaver.png");
+        background-size: cover;
+        background-position: 0 0;
+        animation: animate 50s linear;
+        border: 1px solid gray;
+        height: 80px;
+        width: 125px;
+        top: 250px;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes animate {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100%;
+    }
+    }
+
 
     @media only screen and (max-width: 768px) {
     .clock {
@@ -93,7 +137,6 @@
         left: 46px;
         top: 200px;
         animation-timing-function: linear;
-
     }
 
     .clock-face {
@@ -115,10 +158,9 @@
       transition: all 0.05s;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     }
-    }
 
     .screensaver {
-        position: relative;
+        position: absolute;
         background: url("img/screensaver.png");
         background-size: cover;
         background-position: 0 0;
@@ -137,6 +179,9 @@
         background-position: 100%;
     }
 }
+    }
+
+    }
     }
 
 </style>
