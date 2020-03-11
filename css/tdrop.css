@@ -7,8 +7,13 @@ body {
     background-image: url("../img/tonsils.png");
     background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
+    border-top: 100px;
+    align-content:center;
+    align-items: center;
+    align-self: center;
 }
-redrob
+
 #container {
     border-top: 20px solid pink;
 	padding-bottom: 36px;
