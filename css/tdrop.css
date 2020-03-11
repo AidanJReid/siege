@@ -3,7 +3,6 @@ body {
 	font-size: 14px;
 	overflow: hidden;
 	white-space: nowrap;
-    cursor: url(../img/hammer.png);
     background-image: url("../img/tonsils.png");
     background-size: cover;
     background-position: center center;
@@ -17,7 +16,7 @@ body {
 #container {
     border-top: 20px solid pink;
 	padding-bottom: 36px;
-    cursor: url(../img/hammer.png);
+    margin-bottom: 400px;
 }
 
 .url {
@@ -31,19 +30,9 @@ body {
 	height: 100px;
 	width: 100px;
 	margin-right: -4px; 
-	cursor: url(../img/hammer.png);
     border: 1px solid black;
 }
 
-#buck {
-    position: relative;
-	display: inline-block;
-	vertical-align: top;
-	height: 150px;
-	width: 100px;
-	margin-right: -4px; 
-	cursor: url(../img/hammer.png);
-}
 
 .box:hover {
 	box-shadow: 0 0 8px #fff;
