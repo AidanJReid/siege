@@ -90,9 +90,7 @@ body {
 .jump {
 	-webkit-animation: jump 4s;
 }
-.stretch {
-	-webkit-animation: stretch 4s;
-}
+
 .flip {
 	-webkit-animation: flip 4s;
 }
@@ -164,21 +162,6 @@ a:hover {
 	90% { -webkit-transform: translateY(-100px);
 		  opacity: 1; }
 	100% { -webkit-transform: translateY(0); }
-}
-
-@-webkit-keyframes stretch {
-	0% { }
-	30% { height: 2000px; -webkit-transform: translateY(0); }
-	50% { -webkit-transform: translateY(2000px);
-		  -webkit-animation-timing-function: ease-out; }
-	70% { -webkit-transform: translateY(2000px); }
-	80% { height: 100px; -webkit-transform: translateY(-150px); }
-	85% { -webkit-transform: translateY(100px); }
-	90% { -webkit-transform: translateY(-50px); }
-	94% { -webkit-transform: translateY(40px); }
-	96% { -webkit-transform: translateY(-10px); }
-	98% { -webkit-transform: translateY(5px); }
-	100% { -webkit-transform: translateY(0px); }
 }
 
 @-webkit-keyframes flip {
