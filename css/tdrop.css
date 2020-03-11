@@ -13,6 +13,15 @@ body {
     align-self: center;
 }
 
+@media only screen and (max-width: 768px) {
+body {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url("../img/tonsils.png");
+}
+}
+
 #container {
     border-top: 20px solid pink;
 	padding-bottom: 36px;
