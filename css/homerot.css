@@ -47,28 +47,32 @@ li a:hover {
   background-color: #4CAF50;
 }
 
-div.gallery {
-  margin: 5px;
-  border: 1px solid black;
-  float:left;
-  width: 140px;
+.container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-basis: 20%;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    width: 140px;
+    margin:auto;
 }
 
 div.gallery:hover {
   border: 1px solid red;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
 div.desc {
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   background-color: green;
   color: white;
-  height: 30px;
+  height: 20px;
+  font-size: 0.7rem;
 }
 
 .content {
