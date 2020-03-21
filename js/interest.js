@@ -23,7 +23,7 @@ function calculateResults(e){
 
     if(isFinite(monthly)){
         monthlyInflation.value = monthly.toFixed(2);
-        totalValue.value = (monthly*calculatedYears).toFixed(2);
+        totalValue.value = (monthly * calculatedYears).toFixed(2);
         totalInflation.value = ((monthly * calculatedYears)-principal).toFixed(2);
     } else {
         console.log("Please check your numbers");
