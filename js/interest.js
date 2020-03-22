@@ -4,7 +4,7 @@ document.getElementById("inflation-form").addEventListener("submit", calculateRe
 
 // Calculate Results
 function calculateResults(e){
-    // console.log("Testing");
+    console.log("Working");
     // UI variables
     const amount = getElementById("amount");
     const inflation = getElementById("inflation");
