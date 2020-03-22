@@ -1,6 +1,6 @@
 // Listen for submit
 
-document.getElementById("inflation-form").addEventListener("submit", calculateResults);
+document.getElementById('inflation-form').addEventListener('submit', calculateResults);
 
 // Calculate Results
 function calculateResults(e){
@@ -26,8 +26,28 @@ function calculateResults(e){
         totalValue.value = (monthly * calculatedYears).toFixed(2);
         totalInflation.value = ((monthly * calculatedYears)-principal).toFixed(2);
     } else {
-        console.log("Please check your numbers");
+        showError("Please check your numbers");
     }
 
     e.preventDefault();
+}
+
+// Show Error
+function showError(error){
+    //Create div
+    const errorDiv = document.createElement('div');
+
+    // Get elements
+    const card = document.querySelector('.card');
+    const heading = document.querySelector('.heading');
+
+    // Add Class
+    errorDiv.className = "alert alert-danger";
+
+    // Create text node and append to div
+    errorDiv.appendChild(document.createTextNode(error));
+
+    // Insert error above heading
+    card.insertBefore(errorDiv, heading);
+
 }
